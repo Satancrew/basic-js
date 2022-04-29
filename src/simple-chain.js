@@ -5,6 +5,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 const chainMaker = {
+
+  chain: [],
+  
   getLength() {
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
@@ -25,6 +28,7 @@ const chainMaker = {
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   }
+
 };
 
 module.exports = {
